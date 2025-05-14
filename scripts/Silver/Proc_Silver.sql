@@ -8,7 +8,7 @@ Actions Performed:
 - Inserts transformed and cleansed data from Bronze into Silver tables.
 Parameters:
 None.
-I
+
 This stored procedure does not accept any parameters or return any values.
 Usage Example:
 EXEC Silver.load_silver;
