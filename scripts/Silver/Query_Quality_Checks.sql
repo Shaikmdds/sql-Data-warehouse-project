@@ -1,4 +1,4 @@
-
+/*
 Quality Checks
 ===========
 Script Purpose:
@@ -10,6 +10,8 @@ Null or duplicate primary keys.
 Unwanted
 aces in string fields.
 Ices
+
+   
 - Data stanedization and consistency.
 -
 Invalid date ranges and orders.
@@ -21,6 +23,8 @@ Investigate and resolve any discrepancies found during the checks.
 =========
 ======
 ============
+*/
+
 
 select * from bronze.crm_cust_info;
 
